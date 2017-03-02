@@ -1,0 +1,120 @@
+attribute_code,frontend_input,frontend_label,option_label,attribute_sets_and_groups,is_visible,is_filterable,is_comparable,is_visible_on_front,is_html_allowed_on_front
+company,multiselect,Company,"Haydon Kerk",haydonkerk_can_stack_rotary_motors/General,1,1,1,1,1
+current_phase,multiselect,"Current Phase",.41A,haydonkerk_can_stack_rotary_motors/General,1,1,1,1,1
+current_phase,multiselect,"Current Phase",100mA,haydonkerk_can_stack_rotary_motors/General,1,1,1,1,1
+current_phase,multiselect,"Current Phase",140mA,haydonkerk_can_stack_rotary_motors/General,1,1,1,1,1
+current_phase,multiselect,"Current Phase",190mA,haydonkerk_can_stack_rotary_motors/General,1,1,1,1,1
+current_phase,multiselect,"Current Phase",1A,haydonkerk_can_stack_rotary_motors/General,1,1,1,1,1
+current_phase,multiselect,"Current Phase",250mA,haydonkerk_can_stack_rotary_motors/General,1,1,1,1,1
+current_phase,multiselect,"Current Phase",340mA,haydonkerk_can_stack_rotary_motors/General,1,1,1,1,1
+current_phase,multiselect,"Current Phase",460mA,haydonkerk_can_stack_rotary_motors/General,1,1,1,1,1
+detent_torque_oz_in_ncm,multiselect,"Detent Torque Oz In Ncm",".12oz-in (0.9Ncm)",haydonkerk_can_stack_rotary_motors/General,1,1,1,1,1
+detent_torque_oz_in_ncm,multiselect,"Detent Torque Oz In Ncm",".14oz-in (0.10Ncm)",haydonkerk_can_stack_rotary_motors/General,1,1,1,1,1
+detent_torque_oz_in_ncm,multiselect,"Detent Torque Oz In Ncm",".17oz-in. (.12Ncm)",haydonkerk_can_stack_rotary_motors/General,1,1,1,1,1
+detent_torque_oz_in_ncm,multiselect,"Detent Torque Oz In Ncm",".25 oz-in (.18Ncm)",haydonkerk_can_stack_rotary_motors/General,1,1,1,1,1
+detent_torque_oz_in_ncm,multiselect,"Detent Torque Oz In Ncm",".28oz-in (.20Ncm)",haydonkerk_can_stack_rotary_motors/General,1,1,1,1,1
+detent_torque_oz_in_ncm,multiselect,"Detent Torque Oz In Ncm",".35 oz-in (.25Ncm)",haydonkerk_can_stack_rotary_motors/General,1,1,1,1,1
+detent_torque_oz_in_ncm,multiselect,"Detent Torque Oz In Ncm",".37oz-in (.26Ncm)",haydonkerk_can_stack_rotary_motors/General,1,1,1,1,1
+detent_torque_oz_in_ncm,multiselect,"Detent Torque Oz In Ncm",".90oz-in (.64Ncm)",haydonkerk_can_stack_rotary_motors/General,1,1,1,1,1
+detent_torque_oz_in_ncm,multiselect,"Detent Torque Oz In Ncm",".9oz-in (.64Ncm",haydonkerk_can_stack_rotary_motors/General,1,1,1,1,1
+detent_torque_oz_in_ncm,multiselect,"Detent Torque Oz In Ncm","1.0oz-in (.71Ncm)",haydonkerk_can_stack_rotary_motors/General,1,1,1,1,1
+detent_torque_oz_in_ncm,multiselect,"Detent Torque Oz In Ncm","1.2oz-in (0.09Ncm)",haydonkerk_can_stack_rotary_motors/General,1,1,1,1,1
+hold_torque_oz_in_ncm,multiselect,"Hold Torque Oz In Ncm",".65oz-in. (0.46 Ncm)",haydonkerk_can_stack_rotary_motors/General,1,1,1,1,1
+hold_torque_oz_in_ncm,multiselect,"Hold Torque Oz In Ncm",.9oz-in(.64Ncm),haydonkerk_can_stack_rotary_motors/General,1,1,1,1,1
+hold_torque_oz_in_ncm,multiselect,"Hold Torque Oz In Ncm","1 oz-in(.71Ncm)",haydonkerk_can_stack_rotary_motors/General,1,1,1,1,1
+hold_torque_oz_in_ncm,multiselect,"Hold Torque Oz In Ncm",1.2oz-in(.85Ncm),haydonkerk_can_stack_rotary_motors/General,1,1,1,1,1
+hold_torque_oz_in_ncm,multiselect,"Hold Torque Oz In Ncm","1.3 oz-in(.92Ncm)",haydonkerk_can_stack_rotary_motors/General,1,1,1,1,1
+hold_torque_oz_in_ncm,multiselect,"Hold Torque Oz In Ncm",1.3oz-in(0.92Ncm),haydonkerk_can_stack_rotary_motors/General,1,1,1,1,1
+hold_torque_oz_in_ncm,multiselect,"Hold Torque Oz In Ncm","1.5 oz-in(1.06Ncm)",haydonkerk_can_stack_rotary_motors/General,1,1,1,1,1
+hold_torque_oz_in_ncm,multiselect,"Hold Torque Oz In Ncm",1.6oz-in(1.13Ncm),haydonkerk_can_stack_rotary_motors/General,1,1,1,1,1
+hold_torque_oz_in_ncm,multiselect,"Hold Torque Oz In Ncm","1.8 oz-in(1.27Ncm)",haydonkerk_can_stack_rotary_motors/General,1,1,1,1,1
+hold_torque_oz_in_ncm,multiselect,"Hold Torque Oz In Ncm",13.0oz-in(9.8Ncm),haydonkerk_can_stack_rotary_motors/General,1,1,1,1,1
+hold_torque_oz_in_ncm,multiselect,"Hold Torque Oz In Ncm",16oz-in(11.30Ncm),haydonkerk_can_stack_rotary_motors/General,1,1,1,1,1
+hold_torque_oz_in_ncm,multiselect,"Hold Torque Oz In Ncm",2.0oz-in(1.41Ncm),haydonkerk_can_stack_rotary_motors/General,1,1,1,1,1
+hold_torque_oz_in_ncm,multiselect,"Hold Torque Oz In Ncm",2.9oz-in(2.05Ncm),haydonkerk_can_stack_rotary_motors/General,1,1,1,1,1
+hold_torque_oz_in_ncm,multiselect,"Hold Torque Oz In Ncm",3.0oz-in(2.12Ncm),haydonkerk_can_stack_rotary_motors/General,1,1,1,1,1
+hold_torque_oz_in_ncm,multiselect,"Hold Torque Oz In Ncm",4.5oz-in(3.18Ncm),haydonkerk_can_stack_rotary_motors/General,1,1,1,1,1
+hold_torque_oz_in_ncm,multiselect,"Hold Torque Oz In Ncm",6oz-in(4.24Ncm),haydonkerk_can_stack_rotary_motors/General,1,1,1,1,1
+hold_torque_oz_in_ncm,multiselect,"Hold Torque Oz In Ncm",8.5oz-in(6.00Ncm),haydonkerk_can_stack_rotary_motors/General,1,1,1,1,1
+inductance_phase,multiselect,"Inductance Phase",15mH,haydonkerk_can_stack_rotary_motors/General,1,1,1,1,1
+inductance_phase,multiselect,"Inductance Phase",19mH,haydonkerk_can_stack_rotary_motors/General,1,1,1,1,1
+inductance_phase,multiselect,"Inductance Phase",20mH,haydonkerk_can_stack_rotary_motors/General,1,1,1,1,1
+inductance_phase,multiselect,"Inductance Phase",24mH,haydonkerk_can_stack_rotary_motors/General,1,1,1,1,1
+inductance_phase,multiselect,"Inductance Phase",26mH,haydonkerk_can_stack_rotary_motors/General,1,1,1,1,1
+inductance_phase,multiselect,"Inductance Phase",3.4mH,haydonkerk_can_stack_rotary_motors/General,1,1,1,1,1
+inductance_phase,multiselect,"Inductance Phase",3.5mH,haydonkerk_can_stack_rotary_motors/General,1,1,1,1,1
+inductance_phase,multiselect,"Inductance Phase",3.8mH,haydonkerk_can_stack_rotary_motors/General,1,1,1,1,1
+inductance_phase,multiselect,"Inductance Phase",32mH,haydonkerk_can_stack_rotary_motors/General,1,1,1,1,1
+inductance_phase,multiselect,"Inductance Phase",35mH,haydonkerk_can_stack_rotary_motors/General,1,1,1,1,1
+inductance_phase,multiselect,"Inductance Phase",39mH,haydonkerk_can_stack_rotary_motors/General,1,1,1,1,1
+inductance_phase,multiselect,"Inductance Phase",3mH,haydonkerk_can_stack_rotary_motors/General,1,1,1,1,1
+inductance_phase,multiselect,"Inductance Phase",4.3mH,haydonkerk_can_stack_rotary_motors/General,1,1,1,1,1
+inductance_phase,multiselect,"Inductance Phase",4.5mH,haydonkerk_can_stack_rotary_motors/General,1,1,1,1,1
+inductance_phase,multiselect,"Inductance Phase",44mH,haydonkerk_can_stack_rotary_motors/General,1,1,1,1,1
+inductance_phase,multiselect,"Inductance Phase",45mH,haydonkerk_can_stack_rotary_motors/General,1,1,1,1,1
+inductance_phase,multiselect,"Inductance Phase",5.5mH,haydonkerk_can_stack_rotary_motors/General,1,1,1,1,1
+inductance_phase,multiselect,"Inductance Phase",52mH,haydonkerk_can_stack_rotary_motors/General,1,1,1,1,1
+inductance_phase,multiselect,"Inductance Phase",55mH,haydonkerk_can_stack_rotary_motors/General,1,1,1,1,1
+inductance_phase,multiselect,"Inductance Phase",6.7mH,haydonkerk_can_stack_rotary_motors/General,1,1,1,1,1
+inductance_phase,multiselect,"Inductance Phase",7.1mH,haydonkerk_can_stack_rotary_motors/General,1,1,1,1,1
+inductance_phase,multiselect,"Inductance Phase",7.2mH,haydonkerk_can_stack_rotary_motors/General,1,1,1,1,1
+inductance_phase,multiselect,"Inductance Phase",8.5mH,haydonkerk_can_stack_rotary_motors/General,1,1,1,1,1
+inductance_phase,multiselect,"Inductance Phase",9mH,haydonkerk_can_stack_rotary_motors/General,1,1,1,1,1
+insulation_resistance,multiselect,"Insulation Resistance","20 МΩ",haydonkerk_can_stack_rotary_motors/General,1,1,1,1,1
+operating_voltage,multiselect,"Operating Voltage","12 VDC",haydonkerk_can_stack_rotary_motors/General,1,1,1,1,1
+operating_voltage,multiselect,"Operating Voltage","5 VDC",haydonkerk_can_stack_rotary_motors/General,1,1,1,1,1
+part_number,multiselect,"Part Number",26440-05,haydonkerk_can_stack_rotary_motors/General,1,1,1,1,1
+part_number,multiselect,"Part Number",26440-12,haydonkerk_can_stack_rotary_motors/General,1,1,1,1,1
+part_number,multiselect,"Part Number",26460-05,haydonkerk_can_stack_rotary_motors/General,1,1,1,1,1
+part_number,multiselect,"Part Number",26460-12,haydonkerk_can_stack_rotary_motors/General,1,1,1,1,1
+part_number,multiselect,"Part Number",26540-05,haydonkerk_can_stack_rotary_motors/General,1,1,1,1,1
+part_number,multiselect,"Part Number",26540-12,haydonkerk_can_stack_rotary_motors/General,1,1,1,1,1
+part_number,multiselect,"Part Number",26560-05,haydonkerk_can_stack_rotary_motors/General,1,1,1,1,1
+part_number,multiselect,"Part Number",26560-12,haydonkerk_can_stack_rotary_motors/General,1,1,1,1,1
+part_number,multiselect,"Part Number",36440-05,haydonkerk_can_stack_rotary_motors/General,1,1,1,1,1
+part_number,multiselect,"Part Number",36440-12,haydonkerk_can_stack_rotary_motors/General,1,1,1,1,1
+part_number,multiselect,"Part Number",36460-05,haydonkerk_can_stack_rotary_motors/General,1,1,1,1,1
+part_number,multiselect,"Part Number",36460-12,haydonkerk_can_stack_rotary_motors/General,1,1,1,1,1
+part_number,multiselect,"Part Number",36540-05,haydonkerk_can_stack_rotary_motors/General,1,1,1,1,1
+part_number,multiselect,"Part Number",36540-12,haydonkerk_can_stack_rotary_motors/General,1,1,1,1,1
+part_number,multiselect,"Part Number",36560-05,haydonkerk_can_stack_rotary_motors/General,1,1,1,1,1
+part_number,multiselect,"Part Number",36560-12,haydonkerk_can_stack_rotary_motors/General,1,1,1,1,1
+part_number,multiselect,"Part Number",46440-05,haydonkerk_can_stack_rotary_motors/General,1,1,1,1,1
+part_number,multiselect,"Part Number",46440-12,haydonkerk_can_stack_rotary_motors/General,1,1,1,1,1
+part_number,multiselect,"Part Number",46460-05,haydonkerk_can_stack_rotary_motors/General,1,1,1,1,1
+part_number,multiselect,"Part Number",46460-12,haydonkerk_can_stack_rotary_motors/General,1,1,1,1,1
+part_number,multiselect,"Part Number",46540-05,haydonkerk_can_stack_rotary_motors/General,1,1,1,1,1
+part_number,multiselect,"Part Number",46540-12,haydonkerk_can_stack_rotary_motors/General,1,1,1,1,1
+part_number,multiselect,"Part Number",46560-05,haydonkerk_can_stack_rotary_motors/General,1,1,1,1,1
+part_number,multiselect,"Part Number",46560-12,haydonkerk_can_stack_rotary_motors/General,1,1,1,1,1
+part_number,multiselect,"Part Number",Z20540-05,haydonkerk_can_stack_rotary_motors/General,1,1,1,1,1
+part_number,multiselect,"Part Number",Z20540-12,haydonkerk_can_stack_rotary_motors/General,1,1,1,1,1
+part_number,multiselect,"Part Number",Z26440-05,haydonkerk_can_stack_rotary_motors/General,1,1,1,1,1
+part_number,multiselect,"Part Number",Z26440-12,haydonkerk_can_stack_rotary_motors/General,1,1,1,1,1
+part_number,multiselect,"Part Number",Z26460-05,haydonkerk_can_stack_rotary_motors/General,1,1,1,1,1
+part_number,multiselect,"Part Number",Z26540-05,haydonkerk_can_stack_rotary_motors/General,1,1,1,1,1
+part_number,multiselect,"Part Number",Z26540-12,haydonkerk_can_stack_rotary_motors/General,1,1,1,1,1
+part_number,multiselect,"Part Number",Z26560-05,haydonkerk_can_stack_rotary_motors/General,1,1,1,1,1
+power_consumption,multiselect,"Power Consumption","10 W",haydonkerk_can_stack_rotary_motors/General,1,1,1,1,1
+power_consumption,multiselect,"Power Consumption","2.5 W",haydonkerk_can_stack_rotary_motors/General,1,1,1,1,1
+power_consumption,multiselect,"Power Consumption","3.4 W",haydonkerk_can_stack_rotary_motors/General,1,1,1,1,1
+power_consumption,multiselect,"Power Consumption","4.6 W",haydonkerk_can_stack_rotary_motors/General,1,1,1,1,1
+resistance_phase,multiselect,"Resistance Phase",118Ω,haydonkerk_can_stack_rotary_motors/General,1,1,1,1,1
+resistance_phase,multiselect,"Resistance Phase",11Ω,haydonkerk_can_stack_rotary_motors/General,1,1,1,1,1
+resistance_phase,multiselect,"Resistance Phase",14.7Ω,haydonkerk_can_stack_rotary_motors/General,1,1,1,1,1
+resistance_phase,multiselect,"Resistance Phase",20Ω,haydonkerk_can_stack_rotary_motors/General,1,1,1,1,1
+resistance_phase,multiselect,"Resistance Phase",29Ω,haydonkerk_can_stack_rotary_motors/General,1,1,1,1,1
+resistance_phase,multiselect,"Resistance Phase",5Ω,haydonkerk_can_stack_rotary_motors/General,1,1,1,1,1
+resistance_phase,multiselect,"Resistance Phase",63Ω,haydonkerk_can_stack_rotary_motors/General,1,1,1,1,1
+resistance_phase,multiselect,"Resistance Phase",84Ω,haydonkerk_can_stack_rotary_motors/General,1,1,1,1,1
+rotor_inertia,multiselect,"Rotor Inertia","1.13 gcm2",haydonkerk_can_stack_rotary_motors/General,1,1,1,1,1
+rotor_inertia,multiselect,"Rotor Inertia","1.2 gcm2",haydonkerk_can_stack_rotary_motors/General,1,1,1,1,1
+rotor_inertia,multiselect,"Rotor Inertia","1.40 gcm2",haydonkerk_can_stack_rotary_motors/General,1,1,1,1,1
+rotor_inertia,multiselect,"Rotor Inertia","10.5 gcm2",haydonkerk_can_stack_rotary_motors/General,1,1,1,1,1
+rotor_inertia,multiselect,"Rotor Inertia","25 gcm2",haydonkerk_can_stack_rotary_motors/General,1,1,1,1,1
+step_angle,multiselect,"Step Angle",15°,haydonkerk_can_stack_rotary_motors/General,1,1,1,1,1
+step_angle,multiselect,"Step Angle",7.5°,haydonkerk_can_stack_rotary_motors/General,1,1,1,1,1
+temperature_rise,multiselect,"Temperature Rise","135°F Rise (75°C Rise)",haydonkerk_can_stack_rotary_motors/General,1,1,1,1,1
+temperature_rise,multiselect,"Temperature Rise","75° C Rise (167°F) Rise",haydonkerk_can_stack_rotary_motors/General,1,1,1,1,1
+wiring,multiselect,Wiring,Bipolar,haydonkerk_can_stack_rotary_motors/General,1,1,1,1,1
+wiring,multiselect,Wiring,Unipolar,haydonkerk_can_stack_rotary_motors/General,1,1,1,1,1
