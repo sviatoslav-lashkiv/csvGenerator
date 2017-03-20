@@ -8,14 +8,14 @@ weight
 price
 tax_class_id
 
+sku
+name
+attribute_set
+description
+short_description
+type
+weight
+price
+tax_class_id
 
 
-
-
-
-
-Insulation Resistance
-Part Number
-Power Consumption
-Rotor Inertia
-Step Angle

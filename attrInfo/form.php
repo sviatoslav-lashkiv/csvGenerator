@@ -90,18 +90,20 @@ $lines = [  'attribute_code',
             'is_html_allowed_on_front' ];
 
 $exports = [];
+
+
 foreach ($allProducts as $key => $products) {
     foreach ($products as $kk => $product) {
         foreach ($product as $k => $v) {
             if ($v && !in_array($k, $bannedAttr)) {
                 $count = [];
                 $count['attribute_code'] = $k;
-                $count['frontend_input'] = 'multiselect';
+                $count['frontend_input'] = 'text';
                 $labelStr = $k;
                 $labelStr = str_replace('_', ' ', $labelStr);
                 $labelStr = ucwords($labelStr);
                 $count['frontend_label'] = $labelStr;
-                $count['option_label'] = preg_replace('|\s+|', ' ', $v);
+                $count['option_label'] = preg_replace('|\s+|', ' ', $v); // '';
                 $count['attribute_sets_and_groups'] = $product['attribute_set'] . '/General';
                 $count['is_visible'] = '1';
                 $count['is_filterable'] = '1';
@@ -113,6 +115,7 @@ foreach ($allProducts as $key => $products) {
         }
     }
 }
+
 $filteredArr = [];
 foreach ($exports as $export) {
     if (!in_array($export, $filteredArr)) {
@@ -122,6 +125,7 @@ foreach ($exports as $export) {
 $exports = $filteredArr;
 sort($exports);
 array_unshift($exports, $lines);
+
 
 /* SAVE */
 $outputBuffer = fopen('file.csv', 'w');

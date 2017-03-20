@@ -1,0 +1,1 @@
+In this directory are saved editsing files ang ready csv-tables.

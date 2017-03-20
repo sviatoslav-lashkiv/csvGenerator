@@ -16,7 +16,7 @@ $products = array();
 $skus = array();
 while (($line = fgetcsv($openFile, 0, ",", '"')) !== FALSE) {
     $line = array_combine($headers, $line);
-    $sku = $line['sku'];
+    $sku = $line['Name'];
     if (isset($products[$sku])) {
         echo "<br />Double sku: $sku = old sku" . $line['Code'];
     }
@@ -69,22 +69,23 @@ foreach ($products as $sku => $product) {
 
 //========================= SANDBOX =======================================
 
-    $skuStr = str_replace('ROTARY STEPPER MOTOR', '', $sku);
-  $export['sku'] = stringReplace($skuStr); // . str_replace('micromo', '', $product['attribute_set']);
+    //$skuStr = str_replace(['ingle', ' SRT TA, ', 'with ','table',' Preloaded', ' Ball Nut,', 'Preloaded,  ','PowerTrac ', 'Circuit', 'ernal Return','Circuit, '], ' ', $sku) ;
+    //$skuStr = preg_replace('|\s+|', '', $skuStr);
+    $skuStr = uniqid('', true);
+    $skuStr =  $product['name'] . '_' . substr($skuStr, 9);
+
+    $export['sku'] = stringReplace( $skuStr); // . str_replace('micromo', '', $product['attribute_set']);
+
+
+    $img = '/' . $product['image'];
+    $export['image'] = $product['image'] ? $img : '';
+    $export['thumbnail'] = $product['image'] ? $img : '';
+    $export['small_image'] = $product['image'] ? $img : '';
 /*
-  $img = '/' . $product['image'];
-  $export['image'] = $product['image'] ? $img : '';
-  $export['thumbnail'] = $product['image'] ? $img : '';
-  $export['small_image'] = $product['image'] ? $img : '';*/
-
-    $export['image1'] = $product['image1'] ? '/' . $product['image1'] : '';
-    $export['image2'] = $product['image2'] ? '/' . $product['image2'] : '';
-    $export['image3'] = $product['image3'] ? '/' . $product['image3'] : '';
-    $export['image4'] = $product['image4'] ? '/' . $product['image4'] : '';
-    $export['image5'] = $product['image5'] ? '/' . $product['image5'] : '';
-    $export['image6'] = $product['image6'] ? '/' . $product['image6'] : '';
-    $export['image7'] = $product['image7'] ? '/' . $product['image7'] : '';
-
+    $export['image2'] = $product['image_1'] ? '/' . $product['image_1'] : '';
+    $export['image3'] = $product['image_2'] ? '/' . $product['image_2'] : '';
+    $export['image4'] = $product['image_3'] ? '/' . $product['image_3'] : '';
+*/
 
     //$images = str_replace("/", "", $product['image']);
     //$arr = explode(";", $images);
@@ -95,17 +96,16 @@ foreach ($products as $sku => $product) {
     //$export['small_image'] = $arr[0] ? '/' . $arr[0] : '';
 
   //$export['price'] = $product['price'] ? str_replace(['$', '.00'], '', $product['price']) : 1;
-
+/*
   $shortDesc = $product['description'];
-  $shortDesc = str_replace('</p> <p>', "\n", $shortDesc);
-  $shortDesc = str_replace('<p>', "", $shortDesc);
-  $shortDesc = str_replace('</p>', "", $shortDesc);
-  $shortDesc = str_replace(['<strong>', '</strong>'], "", $shortDesc);
-  $shortDesc = str_replace('<br>', "\n", $shortDesc);
-  $shortDesc = trim($shortDesc);
+  $shortDesc = str_replace('<p></p>', "", $shortDesc);
+  $shortDesc = str_replace('<table></table>', "", $shortDesc);
+  $shortDesc= preg_replace('|\s+|', ' ', $shortDesc);
+  $shortDesc = trim($shortDesc);*/
   //$description = str_replace("<br>", "\n", $product['description']);
 
-  $export['short_description']  = $shortDesc; //importCkeckOf ( $product['description'] ) . "\n\n" . $shortDesc;
+  $shortDesc = $product['description'] . "\n\n" .$product['features'];
+  $export['short_description']  = $shortDesc;// $shortDesc; importCkeckOf ( $product['description'] ) . "\n\n" . $shortDesc;
   $export['description'] = $shortDesc;
 
 
